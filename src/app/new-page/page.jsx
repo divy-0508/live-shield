@@ -1,6 +1,5 @@
-"use client";
+'use client';
 import React, { useState } from 'react';
-
 
 function MainComponent() {
   const [stream, setStream] = useState(null);
