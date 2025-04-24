@@ -1,5 +1,7 @@
 'use client';
-import React, { useState } from 'react';
+'use client';
+import React, { useState, useRef } from 'react';
+
 
 function MainComponent() {
   const [stream, setStream] = useState(null);
